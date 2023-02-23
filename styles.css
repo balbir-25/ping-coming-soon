@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    min-height: 80vh;
+    min-width: 1340px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    background-color:white;
+    font-family: "Libre Franklin";
+  }
+
+  /* ================================START MAIN AREA==================================== */
+  .site{
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+  }
+
+  .site-h1{
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 300;
+    color:hsl(0, 0%, 59%);
+    padding: 30px 0px;
+  }
+
+  .site-h1 span{
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: hsl(209, 33%, 12%);
+  }
+
+  .site-para{
+    font-size: 1.2rem;
+    font-style: normal;
+    font-weight: 300;
+    color: hsl(209, 33%, 12%);
+  }
+
+  .site-form{
+    margin: 30px 0px;
+  }
+
+  #add{
+    padding: 15px 20px;
+    border-radius: 20px;
+    width: 30%;
+  }
+
+  .btn{
+    padding: 15px 20px;
+    border-radius: 20px;
+    width: 12%;
+    border: none;
+    background-color: hsl(223, 87%, 63%);
+    color: hsl(223, 100%, 88%);
+    font-size: 1rem;
+    margin-left: 10px;
+    box-shadow: 5px 10px hsl(223, 100%, 88%);
+    cursor: pointer;
+  }
+
+  .mail-para{
+    font-size: 1.2rem;
+    font-style: normal;
+    font-weight: 400;
+    color: hsl(354, 100%, 66%);
+    margin-right: 200px;
+    padding-top: 10px;
+    display: none;
+  }
+
+  .main-img{
+    width: 60%;
+    margin-top: 50px;
+  }
+
+  .social{
+    margin-top: 70px;
+  }
+
+  #icon{
+    color: hsl(223, 87%, 63%);
+    margin-right: 20px;
+    cursor: pointer;
+    padding: 5px;
+    background-color: white;
+  }
+
+  #icon:hover{
+    background-color: hsl(223, 87%, 63%);
+    border-radius: 100%;
+    color: white;
+  }
+
+  .copy{
+    margin-top: 20px;
+    color: hsl(0, 0%, 59%);
+  }
+
+  /* ================================END MAIN AREA==================================== */
+  /* =============================START FOOTER  AREA=========================== */
+  .foot {
+    text-align: center;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 20px;
+    color: hsl(0, 100%, 67%);
+    background-color: black;
+    margin-top: 50px;
+  }
+  
+  .foot a {
+    text-decoration: none;
+    color: hsl(39, 100%, 56%);
+  }
+  /* =============================END FOOTER  AREA=========================== */
+  /* ================================START MEDIA QUERRY==================== */
+  @media screen and (max-width:768px){
+    body{
+        min-width: 768px;
+    }
+
+    .site-form{
+        display: flex;
+        flex-direction: column;
+    }
+
+    #add{
+        width: 80%;
+        margin-left: 50px;
+    }
+
+    .btn{
+       width: 80%;
+        margin-left: 50px; 
+        margin-top: 50px;
+    }
+
+    .mail-para{
+        margin-top: -100px;
+        margin-right: 300px;
+    }
+
+    .main-img{
+        margin-top: 80px;
+        width: 90%;
+    }
+  }
+
+  @media screen and (max-width:375px){
+    body{
+        min-width: 375px;
+    }
+
+    .site{
+        padding: 10px;
+    }
+
+    .mail-para{
+        margin-right: 0px;
+        margin-left: 5px;
+    }
+
+    .site-h1{
+        font-size: 1.8rem;
+    }
+
+    .site-h1 span{
+        font-size: 2.2rem;
+    }
+  }
+  /* ================================END MEDIA QUERRY==================== */
