@@ -86,7 +86,7 @@
     margin-top: 70px;
   }
 
-  #icon{
+  .icon{
     color: hsl(223, 87%, 63%);
     margin-right: 20px;
     cursor: pointer;
@@ -94,7 +94,7 @@
     background-color: white;
   }
 
-  #icon:hover{
+  .icon:hover{
     background-color: hsl(223, 87%, 63%);
     border-radius: 100%;
     color: white;
